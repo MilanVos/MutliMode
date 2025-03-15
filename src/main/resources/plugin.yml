@@ -1,0 +1,7 @@
+name: MutliMode
+version: '1.0'
+main: nl.multitime.mutliMode.MutliMode
+api-version: '1.20'
+authors: [ MultiTime ]
+description: Minecraft Client Made by Multtime himself
+website: #SOON

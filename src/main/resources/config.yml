@@ -1,0 +1,21 @@
+# MutliMode Configuration
+
+# Klasse-specifieke instellingen
+classes:
+  warrior:
+    strength-level: 0  # Potion effect level (0 = level 1)
+    resistance-level: 0
+  archer:
+    speed-level: 0
+  mage:
+    night-vision: true
+    fire-resistance: true
+  assassin:
+    speed-level: 1
+    jump-level: 1
+    stealth-duration: 10  # in seconden
+
+# Algemene instellingen
+settings:
+  show-class-selection-on-join: true
+  allow-class-change: true
