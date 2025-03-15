@@ -1,7 +1,12 @@
 name: MutliMode
-version: '1.0'
+version: '${project.version}'
 main: nl.multitime.mutliMode.MutliMode
-api-version: '1.20'
-authors: [ MultiTime ]
-description: Minecraft Client Made by Multtime himself
-website: #SOON
+api-version: '1.16'
+authors: [MultiTime]
+description: Een survival plugin met klassen en abilities
+
+commands:
+  class:
+    description: Selecteer een klasse of open het klassenmenu
+    usage: /class [warrior|archer|mage]
+    aliases: [klasse]
